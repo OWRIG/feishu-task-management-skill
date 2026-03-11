@@ -1,0 +1,11 @@
+{
+  "app_id": "cli_xxx",
+  "app_secret": "xxx",
+  "user_access_token": "u-xxx",
+  "refresh_token": "refresh-xxx",
+  "user_token_expires_at": "2026-03-10T18:00:00+08:00",
+  "user_scope": "task:task:read task:task:write",
+  "base_url": "https://open.feishu.cn/open-apis",
+  "timezone": "Asia/Shanghai",
+  "default_member_open_id": "ou_xxx"
+}
