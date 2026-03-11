@@ -1,6 +1,6 @@
 # Feishu Task Management Skill
 
-一个面向 Codex / OpenAI Coding Agent 的飞书任务管理 skill，内置可执行 toolkit，用来完成：
+一个面向类 OpenClaw agent 的飞书任务管理 skill，内置可执行 toolkit，用来完成：
 
 - 飞书任务创建、查询、更新、完成、恢复、删除
 - 任务成员添加与移除
@@ -103,7 +103,7 @@ python3 feishu-task-management/toolkit/scripts/feishu_task.py create --summary "
 
 这个项目更适合下面这类场景：
 
-- 想给 Codex / OpenAI Coding Agent 增加飞书任务管理能力
+- 想给 Agent 增加飞书任务管理能力
 - 希望把飞书任务操作约束成固定 CLI，而不是临时拼 OpenAPI
 - 需要在 skill 分发时把脚本和本地数据结构一起带走
 - 主要面向中文团队和中国区飞书环境
